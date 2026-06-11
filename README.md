@@ -1,6 +1,8 @@
-# ChatExtractor-Screenshot
+# ChatScreenshot
 
-纯本地 Android 取证/留存辅助工具：`Python + ADB + Qt GUI`，不依赖云端，不消耗 Token。
+在[0xSec623/ChatExtractor-Screenshot: 基于 Python + ADB 的轻量级聊天截图采集工具，支持自动滚动、智能去重与结构化存储，全程离线、无需 AI。](https://github.com/0xSec623/ChatExtractor-Screenshot)基础上进行修改的
+
+感谢[0xSec623](https://github.com/0xSec623)
 
 > 当前主线：**Qt GUI（优先 PySide6，失败自动回退 PyQt5）+ CLI 回退保留**
 
