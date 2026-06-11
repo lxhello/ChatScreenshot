@@ -1,0 +1,17 @@
+# ChatExtractor-Screenshot 依赖
+#
+# 说明：
+# - Pillow 为图像处理必需依赖
+# - GUI 需要安装一个 Qt 绑定：优先 PySide6，或使用 PyQt5 回退
+# - 若只用 CLI，可不安装 Qt，但推荐保持与 GUI 环境一致
+
+Pillow>=10.0.0
+PySide6>=6.5.0
+PyQt5>=5.15.0
+rapidocr-onnxruntime>=1.4.4
+apkutils2>=1.0.0
+
+# 外部依赖：
+# - ADB (Android Debug Bridge) 需手动安装并加入 PATH
+#   Linux: sudo apt install adb
+#   Windows: 下载 Android platform-tools 并加入 PATH

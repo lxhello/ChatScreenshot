@@ -1,0 +1,28 @@
+Android Debug Bridge (ADB) 许可证声明
+======================================
+
+本项目使用的 ADB (Android Debug Bridge) 工具来自 Android SDK Platform Tools，
+版权归 Google LLC 所有，遵循 Apache License 2.0 许可证。
+
+官方来源
+--------
+- 官方网站: https://developer.android.com/studio/releases/platform-tools
+- 许可证: https://github.com/google/adb.js/blob/main/LICENSE (Apache 2.0)
+
+使用条款
+--------
+ADB 工具按"原样"提供，不作任何明示或暗示的担保。
+详情请参阅 Apache License 2.0 完整文本：
+https://www.apache.org/licenses/LICENSE-2.0
+
+分发说明
+--------
+当分享本项目时，请确保包含此许可证声明文件。
+
+独立组件
+--------
+ChatExtractor-Screenshot 项目本身与 ADB 是独立的：
+- ChatExtractor-Screenshot: 由项目作者开发的独立工具
+- ADB: Google 开发的 Android 调试工具（Apache 2.0 许可证）
+
+两者通过命令行接口进行交互，不构成衍生作品关系。
